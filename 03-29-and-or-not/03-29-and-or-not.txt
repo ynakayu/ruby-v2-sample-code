@@ -1,0 +1,43 @@
+$ irb
+3.3.5 :001 > t1 = true
+ => true 
+3.3.5 :002 > t2 = true
+ => true 
+3.3.5 :003 > f1 = false
+ => false 
+3.3.5 :004 > f2 = false
+ => false 
+3.3.5 :005 > t1 && t2
+ => true 
+3.3.5 :006 > t1 and t2
+ => true 
+3.3.5 :007 > t1 && f1
+ => false 
+3.3.5 :008 > t1 and f1
+ => false 
+3.3.5 :009 > t1 || t2
+ => true 
+3.3.5 :010 > t1 or t2
+ => true 
+3.3.5 :011 > t1 || f2
+ => true 
+3.3.5 :012 > t1 or f2
+ => true 
+3.3.5 :013 > f1 || f2
+ => false 
+3.3.5 :014 > f1 or f2
+ => false 
+3.3.5 :015 > !t1
+ => false 
+3.3.5 :016 > not(t1)
+ => false 
+3.3.5 :017 > !f1
+ => true 
+3.3.5 :018 > not(f1)
+ => true 
+3.3.5 :019 > t1 || t2 && f1
+ => true 
+3.3.5 :020 > t1 or t2 and f1
+ => false 
+3.3.5 :021 > (t1 || t2) && f1
+ => false

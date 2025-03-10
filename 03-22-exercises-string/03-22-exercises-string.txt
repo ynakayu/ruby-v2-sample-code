@@ -1,0 +1,8 @@
+$ irb
+3.3.5 :001 > str1 = 'Hello'
+ => "Hello" 
+3.3.5 :002 > str2 = 'Ruby'
+ => "Ruby" 
+3.3.5 :003 > puts "#{str1} #{str2}"
+Hello Ruby
+ => nil

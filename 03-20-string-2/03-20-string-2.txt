@@ -1,0 +1,23 @@
+$ irb
+3.3.5 :001 > puts 'Yuta' + 'Nakamura'
+YutaNakamura
+ => nil 
+3.3.5 :002 > puts 'Yuta' + ' ' + 'Nakamura'
+Yuta Nakamura
+ => nil 
+3.3.5 :003 > s = 'Hello World!'
+ => "Hello World!" 
+3.3.5 :004 > puts s.upcase
+HELLO WORLD!
+ => nil 
+3.3.5 :005 > puts s
+Hello World!
+ => nil 
+3.3.5 :006 > s.upcase!
+ => "HELLO WORLD!" 
+3.3.5 :007 > puts s
+HELLO WORLD!
+ => nil 
+3.3.5 :008 > 'abc'.class
+ => String 
+3.3.5 :009 > 'abc'.met

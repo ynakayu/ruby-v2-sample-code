@@ -1,0 +1,29 @@
+$ irb
+3.3.5 :001 > 1 + '1'
+(irb):1:in `+': String can't be coerced into Integer (TypeError)
+
+1 + '1'
+    ^^^
+        from (irb):1:in `<main>'
+        from <internal:kernel>:187:in `loop'
+        from /usr/local/rvm/rubies/ruby-3.3.5/lib/ruby/gems/3.3.0/gems/irb-1.13.1/exe/irb:9:in `<top (required)>'
+        from /usr/local/rvm/rubies/ruby-3.3.5/bin/irb:31:in `load'
+        from /usr/local/rvm/rubies/ruby-3.3.5/bin/irb:31:in `<main>'
+3.3.5 :002 > 1 + '1'.to_i
+ => 2 
+3.3.5 :003 > 1 + '1.1'.to_f
+ => 2.1 
+3.3.5 :004 > number = 1
+ => 1 
+3.3.5 :005 > 'Number is ' + number
+(irb):5:in `+': no implicit conversion of Integer into String (TypeError)
+
+'Number is ' + number
+               ^^^^^^
+        from (irb):5:in `<main>'
+        from <internal:kernel>:187:in `loop'
+        from /usr/local/rvm/rubies/ruby-3.3.5/lib/ruby/gems/3.3.0/gems/irb-1.13.1/exe/irb:9:in `<top (required)>'
+        from /usr/local/rvm/rubies/ruby-3.3.5/bin/irb:31:in `load'
+        from /usr/local/rvm/rubies/ruby-3.3.5/bin/irb:31:in `<main>'
+3.3.5 :006 > 'Number is ' + number.to_s
+ => "Number is 1"

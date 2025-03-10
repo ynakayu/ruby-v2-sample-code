@@ -1,0 +1,62 @@
+$ irb
+3.3.5 :001 > {}
+ => {} 
+3.3.5 :002 > nakamura = {'name' => 'Nakamura', 'birthplace' => 'Nagano'}
+ => {"name"=>"Nakamura", "birthplace"=>"Nagano"} 
+3.3.5 :003 > puts nakamura['name']
+Nakamura
+ => nil 
+3.3.5 :004 > puts nakamura['birthplace']
+Nagano
+ => nil 
+3.3.5 :005 > nakamura['age'] = 20
+ => 20 
+3.3.5 :006 > puts nakamura
+{"name"=>"Nakamura", "birthplace"=>"Nagano", "age"=>20}
+ => nil 
+3.3.5 :007 > nakamura['age'] = 21                                           
+ => 21 
+3.3.5 :008 > puts nakamura
+{"name"=>"Nakamura", "birthplace"=>"Nagano", "age"=>21}
+ => nil 
+3.3.5 :009 > nakamura.delete('age')
+ => 21 
+3.3.5 :010 > puts nakamura
+{"name"=>"Nakamura", "birthplace"=>"Nagano"}
+ => nil 
+3.3.5 :011 > 
+3.3.5 :011 > sato = {name: 'Sato', birthplace: 'Tokyo'}
+ => {:name=>"Sato", :birthplace=>"Tokyo"} 
+3.3.5 :012 > puts sato[:name]
+Sato
+ => nil 
+3.3.5 :013 > puts sato[:birthplace]
+Tokyo
+ => nil 
+3.3.5 :014 > sato[:age] = 20
+ => 20 
+3.3.5 :015 > puts sato
+{:name=>"Sato", :birthplace=>"Tokyo", :age=>20}
+ => nil 
+3.3.5 :016 > sato[:age] = 21
+ => 21 
+3.3.5 :017 > puts sato
+{:name=>"Sato", :birthplace=>"Tokyo", :age=>21}
+ => nil 
+3.3.5 :019 > sato.delete(:age)
+ => 21 
+3.3.5 :020 > puts sato
+{:name=>"Sato", :birthplace=>"Tokyo"}
+ => nil 
+3.3.5 :021 > 
+3.3.5 :021 > sato.keys
+ => [:name, :birthplace] 
+3.3.5 :022 > sato.values
+ => ["Sato", "Tokyo"] 
+3.3.5 :023 > sato.has_key?(:name)
+ => true 
+3.3.5 :024 > sato.has_key?(:address)
+ => false 
+3.3.5 :025 > sato.size
+ => 2 
+3.3.5 :026 > exit

@@ -1,0 +1,10 @@
+$ irb
+3.3.5 :001 > Integer.superclass
+ => Numeric 
+3.3.5 :002 > Numeric.superclass
+ => Object 
+3.3.5 :003 > Object.superclass
+ => BasicObject 
+3.3.5 :004 > BasicObject.superclass
+ => nil 
+3.3.5 :005 > exit
