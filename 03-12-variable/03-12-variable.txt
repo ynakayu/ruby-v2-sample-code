@@ -1,0 +1,19 @@
+$ irb
+3.3.5  :001 > s = 'Hello!'                                                 
+ => "Hello!" 
+3.3.5  :002 > puts s
+Hello!
+ => nil 
+3.3.5  :003 > n = 10 * 2
+ => 20 
+3.3.5  :004 > puts n
+20
+ => nil 
+3.3.5  :005 > i
+(irb):1:in `<main>': undefined local variable or method `i' for main:Object (NameError)
+from /home/ubuntu/.rvm/rubies/ruby-3.2.2/lib/ruby/gems/3.2.0/gems/irb-1.6.2/exe/irb:11:in `<top (required)>'
+from /home/ubuntu/.rvm/rubies/ruby-3.2.2/bin/irb:31:in `load'
+from /home/ubuntu/.rvm/rubies/ruby-3.2.2/bin/irb:31:in `<main>'
+3.3.5  :006 > i = nil
+ => nil 
+3.3.5  :007 > exit

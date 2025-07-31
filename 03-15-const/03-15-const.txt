@@ -1,0 +1,17 @@
+3.3.5 :001 > TAX = 1.1
+ => 1.1 
+3.3.5 :002 > puts TAX
+1.1
+ => nil 
+3.3.5 :003 > TAX_RATE = 1.1
+ => 1.1 
+3.3.5 :004 > puts TAX_RATE
+1.1
+ => nil 
+3.3.5 :005 > TAX_RATE = 1.5
+(irb):5: warning: already initialized constant TAX_RATE
+(irb):3: warning: previous definition of TAX_RATE was here
+ => 1.5 
+3.3.5 :006 > puts TAX_RATE
+1.5
+ => nil 

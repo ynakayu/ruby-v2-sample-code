@@ -1,0 +1,21 @@
+$ irb
+3.3.5 :001 > 'abcdef'
+ => "abcdef" 
+3.3.5 :002 > "abcdef"
+ => "abcdef" 
+3.3.5 :003 > puts "Ruby\nProgrammimg"
+Ruby
+Programmimg
+ => nil 
+3.3.5 :004 > 'Ruby\nProgrammimg'
+ => "Ruby\\nProgrammimg" 
+3.3.5 :005 > first_name = 'Yuta'
+ => "Yuta" 
+3.3.5 :006 > last_name = 'Nakamura'
+ => "Nakamura" 
+3.3.5 :007 > puts "My name is #{first_name} #{last_name}."
+My name is Yuta Nakamura.
+ => nil 
+3.3.5 :008 > puts 'My name is #{first_name} #{last_name}.'
+My name is #{first_name} #{last_name}.
+ => nil 

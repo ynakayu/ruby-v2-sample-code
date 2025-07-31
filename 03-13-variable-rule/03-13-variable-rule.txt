@@ -1,0 +1,20 @@
+3.3.5 :001 > price = 100
+ => 100 
+3.3.5 :002 > price1 = 100
+ => 100 
+3.3.5 :003 > _price = 100
+ => 100 
+3.3.5 :004 > 値段 = 100
+ => 100 
+3.3.5 :005 > 1price = 100
+<internal:kernel>:187:in `loop': (irb):5: syntax error, unexpected local variable or method, expecting end-of-input (SyntaxError)
+1price = 100
+ ^~~~~
+
+        from /usr/local/rvm/rubies/ruby-3.3.5/lib/ruby/gems/3.3.0/gems/irb-1.13.1/exe/irb:9:in `<top (required)>'
+        from /usr/local/rvm/rubies/ruby-3.3.5/bin/irb:31:in `load'
+        from /usr/local/rvm/rubies/ruby-3.3.5/bin/irb:31:in `<main>'
+3.3.5 :006 > price_cost = 30
+ => 30 
+3.3.5 :007 > priceCost = 30
+ => 30

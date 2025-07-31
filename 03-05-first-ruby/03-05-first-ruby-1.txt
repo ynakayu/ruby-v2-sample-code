@@ -1,0 +1,12 @@
+$ irb
+3.3.5  :001 > 'Hello, World!'
+ => "Hello, World!" 
+3.3.5  :002 > puts 'Hello, World!'
+Hello, World!
+ => nil 
+3.3.5  :003 > 1 + 1
+ => 2 
+3.3.5  :004 > 10 - 1
+ => 9 
+3.3.5  :005 > 
+3.3.5  :005 > exit

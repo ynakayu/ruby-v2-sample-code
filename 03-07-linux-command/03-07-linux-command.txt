@@ -1,0 +1,7 @@
+$ cd ..
+$ ls
+$ pwd
+$ cd /workspaces/Rails-Projects/ruby_projects
+$ ls
+$ cd ruby_rails_projects
+$ pwd
